@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Navbar from "@/components/UI/Navbar/Navbar";
 import GridView from "@/components/UI/GridView/GridView";
-import Carousel from "@/components/UI/Carousel/carousel";
-import Footer from "@/components/UI/Footer/footer";
+import Carousel from "@/components/UI/Carousel/Carousel";
+import Footer from "@/components/UI/Footer/Footer";
 
 export default function Home() {
   return (

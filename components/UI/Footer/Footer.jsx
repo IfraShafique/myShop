@@ -1,7 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 export default function Footer() {
+    const initialVaues = [
+        {src: '/assets/Images/facebook.png', alt: 'facebook', href: 'https://www.facebook.com/'},
+        {src: '/assets/Images/linkedin.png', alt: 'linkedin', href: 'https://www.linkedin.com/'},
+        {src: '/assets/Images/twitter.png', alt: 'twitter', href: 'https://www.twitter.com/'},
+   
+    ]
   return (
     <>
     <div className=' pt-20 w-[90%] text-white px-10'>
@@ -14,13 +21,25 @@ export default function Footer() {
                 </ul>
             </div>
 
-            <div className=' sm:text-xl text-xs font-bold '>
+            <div className=' sm:text-xl text-xs font-bold max-sm:w-[60%]'>
                 <p>Be With Us</p>
                 <div className='flex'>
                     <ul className='flex'>
-                        <li>
-                            <FontAwesomeIcon icon={faFacebookF} className="text-white sm:w-10 sm:text-[36px] w-6 mt-1" />
-                        </li>
+                       
+                            {initialVaues.map((value, index) => (
+                                <li className='py-2'>
+                                    <a href={value.href} target="_blank">
+                                    <Image
+                                    src={value.src}
+                                    alt={value.alt}
+                                    className="max-sm:w-[50%] rounded-full sm:mr-4"
+                                    width={50}
+                                    height={50}
+                                />
+                                    </a>
+                                </li>
+                            ))}
+                    
                     </ul>
                 </div>
             </div>

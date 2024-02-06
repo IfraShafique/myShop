@@ -1,8 +1,8 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedIn } from "@fortawesome/free-solid-svg-icons";
-import { faTwitter } from "@fortawesome/free-solid-svg-icons";
+// import { faFacebook } from "@fortawesome/free-solid-svg-icons";
+// import { faLinkedIn } from "@fortawesome/free-solid-svg-icons";
+// import { faTwitter } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
@@ -19,7 +19,7 @@ export default function Footer() {
             <div className=' text-xl font-bold '>
                 <p>Be With Us</p>
                 <div className='flex'>
-                    <div>
+                    {/* <div>
                 <FontAwesomeIcon
               icon={faFacebook}
               className="text-white sm:w-10 sm:text-[36px] w-6  mt-1"
@@ -36,7 +36,7 @@ export default function Footer() {
               icon={faLinkedIn}
               className="text-white sm:w-10 sm:text-[36px] w-6  mt-1"
             />
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

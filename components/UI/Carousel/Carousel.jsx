@@ -23,7 +23,7 @@ export default function Carousel() {
     return (
         <div id="default-carousel" className="relative w-full sm:mt-24 mt-12" data-carousel="slide">
             {/* Carousel wrapper */}
-            <div className="relative h-[80vh] overflow-hidden rounded-lg">
+            <div className="relative h-[80vh] overflow-hidden">
                 {/* Display only the current slide */}
                 {[...Array(totalSlides)].map((_, index) => (
                     <div

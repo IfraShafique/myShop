@@ -4,8 +4,9 @@ import Image from 'next/image';
 export default function GridView() {
     return (
         <div className='mt-24 w-[100%] mx-auto sm:px-5 px-2'>
+            <h1 className='sm:text-6xl text-2xl text-center font-bold mb-4 text-white'>GALLERY</h1>
             <div className="grid grid-row-3 sm:gap-4 gap-2">
-            <div className="grid grid-cols-12 sm:gap-4  gap-2">
+            <div className="grid grid-cols-12 sm:gap-4  gap-2 sm:mt-10 mt-5">
     {/* First row with full-width column */}
     <div className="col-span-12">
         <div className="">

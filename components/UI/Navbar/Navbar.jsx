@@ -44,9 +44,9 @@ export default function Navbar() {
       <div className="flex mt-3">
         <div className="xl:mr-12 mr-4" >
           <ul className="flex text-white sm:text-base text-xs font-semibold ">
-            <li className=" sm:px-6 px-1 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer">Home</li>
-            <li className=" sm:px-6 px-1 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer">About</li>
-            <li className=" sm:px-6 px-1 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer">Gallery</li>
+            <li className=" sm:px-4 px-1 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer">Home</li>
+            <li className=" sm:px-4 px-1 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer">About</li>
+            <li className=" sm:px-4 px-1 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer">Gallery</li>
           </ul>
         </div>
 

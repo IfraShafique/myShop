@@ -38,8 +38,8 @@ export default function Carousel() {
                                 src={`/assets/Images/banners-img/home${index + 1}.webp`}
                                 alt={`Slide ${index + 1}`}
                                 className="w-full h-[80vh] object-cover object-center"
-                                width={100}
-                                height={100}
+                                width={3000}
+                                height={3000}
                             />
                         </div>
                     </div>

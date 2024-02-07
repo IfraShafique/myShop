@@ -14,8 +14,8 @@ export default function GridView() {
                 src="/assets/Images/img2.jpg"
                 alt="logo"
                 className="w-full h-full max-h-[70vh] hover:scale-y-105 transform transition duration-500 ease-in-out cursor-pointer"
-                width={100} // Set a fixed width for the image (optional)
-                height={100} // Set a fixed height for the image (optional)
+                width={3000} // Set a fixed width for the image (optional)
+                height={3000} // Set a fixed height for the image (optional)
             />
         </div>
     </div>
@@ -27,8 +27,8 @@ export default function GridView() {
                 src="/assets/Images/img1.jpg"
                 alt="logo"
                 className="w-full h-full max-h-[70vh]  hover:scale-y-105 transform transition duration-500 ease-in-out cursor-pointer"
-                width={100} // Set a fixed width for the image (optional)
-                height={100} // Set a fixed height for the image (optional)
+                width={3000} // Set a fixed width for the image (optional)
+                height={3000} // Set a fixed height for the image (optional)
             />
         </div>
     </div>
@@ -40,8 +40,8 @@ export default function GridView() {
                 src="/assets/Images/img6.jpg"
                 alt="logo"
                 className="w-full h-full max-h-[70vh] hover:scale-y-105 transform transition duration-500 ease-in-out cursor-pointer"
-                width={100} // Set a fixed width for the image (optional)
-                height={100} // Set a fixed height for the image (optional)
+                width={3000} // Set a fixed width for the image (optional)
+                height={3000} // Set a fixed height for the image (optional)
             />
         </div>
     </div>
@@ -53,8 +53,8 @@ export default function GridView() {
                 src="/assets/Images/img9.jpg"
                 alt="logo"
                 className="w-full h-full  max-h-[70vh] hover:scale-y-105 transform transition duration-500 ease-in-out cursor-pointer"
-                width={100} // Set a fixed width for the image (optional)
-                height={100} // Set a fixed height for the image (optional)
+                width={3000} // Set a fixed width for the image (optional)
+                height={3000} // Set a fixed height for the image (optional)
             />
         </div>
     </div>
@@ -66,8 +66,8 @@ export default function GridView() {
                 src="/assets/Images/img10.avif"
                 alt="logo"
                 className="w-full h-full  hover:scale-y-105 transform transition duration-500 ease-in-out cursor-pointer"
-                width={100} // Set a fixed width for the image (optional)
-                height={200} // Set a fixed height for the image (optional)
+                width={3000} // Set a fixed width for the image (optional)
+                height={3000} // Set a fixed height for the image (optional)
             />
         </div>
     </div>
@@ -76,11 +76,11 @@ export default function GridView() {
     <div className="col-span-5">
         <div className= " h-full w-full">
             <Image
-                src="/assets/Images/img8.jpg"
+                src="/assets/Images/img7.jpg"
                 alt="logo"
                 className=" w-full h-full  max-h-[70vh]  hover:scale-y-105 transform transition duration-500 ease-in-out cursor-pointer"
-                width={100} // Set a fixed width for the image (optional)
-                height={100} // Set a fixed height for the image (optional)
+                width={3000} // Set a fixed width for the image (optional)
+                height={3000} // Set a fixed height for the image (optional)
             />
         </div>
     </div>
@@ -92,8 +92,8 @@ export default function GridView() {
                 src="/assets/Images/img3.jpg"
                 alt="logo"
                 className=" w-full h-full max-h-[70vh]  hover:scale-y-105 transform transition duration-500 ease-in-out cursor-pointer"
-                width={100} // Set a fixed width for the image (optional)
-                height={100} // Set a fixed height for the image (optional)
+                width={3000} // Set a fixed width for the image (optional)
+                height={3000} // Set a fixed height for the image (optional)
             />
         </div>
     </div>
@@ -102,11 +102,11 @@ export default function GridView() {
     <div className="col-span-6">
         <div className="w-full h-full">
             <Image
-                src="/assets/Images/img11.avif"
+                src="/assets/Images/img4.jpg"
                 alt="logo"
                 className="w-full h-full max-h-[70vh]  hover:scale-y-105 transform transition duration-500 ease-in-out cursor-pointer"
-                width={100} // Set a fixed width for the image (optional)
-                height={100} // Set a fixed height for the image (optional)
+                width={3000} // Set a fixed width for the image (optional)
+                height={3000} // Set a fixed height for the image (optional)
             />
         </div>
     </div>
@@ -118,8 +118,8 @@ export default function GridView() {
                 src="/assets/Images/img5.jpg"
                 alt="logo"
                 className="w-full h-full max-h-[70vh]  hover:scale-y-105 transform transition duration-500 ease-in-out cursor-pointer"
-                width={100} // Set a fixed width for the image (optional)
-                height={100} // Set a fixed height for the image (optional)
+                width={3000} // Set a fixed width for the image (optional)
+                height={3000} // Set a fixed height for the image (optional)
             />
         </div>
     </div>

@@ -15,9 +15,9 @@ export default function Footer() {
         <div className='flex max-sm:flex max-sm:flex-col'>
             <div className='sm:w-[70%]   sm:text-xl text-xs'>
                 <ul className='flex'> 
-                    <li className='mb-12 border-l-4 border-pink-800 px-2'>About Us</li>
-                    <li className='mb-12 border-l-4 border-pink-800 px-2'>Contact Us</li>
-                    <li className='mb-12 border-l-4 border-pink-800 px-2'>Privacy</li>
+                    <li className='mb-12 border-l-4 border-pink-800 px-2 cursor-pointer '>About Us</li>
+                    <li className='mb-12 border-l-4 border-pink-800 px-2 cursor-pointer '>Contact Us</li>
+                    <li className='mb-12 border-l-4 border-pink-800 px-2 cursor-pointer '>Privacy</li>
                 </ul>
             </div>
 

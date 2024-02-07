@@ -1,8 +1,7 @@
 'use client'
 import React, {useState} from "react";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/Link"
 
 
 export default function Navbar() {
@@ -26,40 +25,21 @@ export default function Navbar() {
           />
         </div>
 
-        <form className="lg:block">
-          <input
-            text="Search"
-            className="absolute sm:w-2/4 w-2/3 lg:h-16 md:h-14 sm:h-12 h-8 bg-[#1e4057] sm:text-xl text-sm text-white lg:ml-5 max-lg:mt-3 rounded-lg pl-4"
-            name="search"
-            placeholder="Search"
-          />
-          {/* <FontAwesomeIcon
-            icon={faMagnifyingGlass}
-            className="absolute text-[#6a7c89] w-8 ml-8 mt-4 "
-          /> */}
-        </form>
       </div>
 
       {/* Right side */}
       <div className="flex mt-3">
-        <div className="xl:mr-12 mr-4" >
-          <ul className="flex text-white sm:text-base text-xs font-semibold ">
-            <li className=" sm:px-4 px-1 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer">About</li>
-            <li className=" sm:px-4 px-1 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer">Contact</li>
-            <li className=" sm:px-4 px-1 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer">Gallery</li>
+        <div className="" >
+          <ul className="flex text-white sm:text-xl text-xs font-semibold ">
+
+            <li className=" sm:px-6 px-2 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer"><Link href="/">Home</Link></li>
+            <li className=" sm:px-6 px-2 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer"><Link href="/about">About</Link></li>
+            <li className=" sm:px-6 px-2 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer"><Link href="/contact">Contact</Link></li>
+            <li className=" sm:px-6 px-2 hover:text-pink-900  hover:underline transform transition duration-500 ease-in-out cursor-pointer">Gallery</li>
           </ul>
         </div>
 
-        <div className="flex">
-          <div className="w-0.5 sm:h-10 h-7 bg-white sm:mr-6 mr-2 "></div>
-
-          <div>
-            <FontAwesomeIcon
-              icon={faCartShopping}
-              className="text-white sm:w-10 sm:text-[36px] w-6  mt-1"
-            />
-          </div>
-        </div>
+    
       </div>
     </div>
   );

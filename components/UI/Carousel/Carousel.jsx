@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 export default function Carousel() {
     const [currentSlide, setCurrentSlide] = useState(0);
+ 
     const totalSlides = 2; // Total number of slides
 
     const nextSlide = () => {

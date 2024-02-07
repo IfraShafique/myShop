@@ -63,7 +63,7 @@ export default function GridView() {
     <div className="col-span-3  row-span-2">
         <div className="h-full w-full">
             <Image
-                src="/assets/Images/img10.avif"
+                src="/assets/Images/img12.jpg"
                 alt="logo"
                 className="w-full h-full  hover:scale-y-105 transform transition duration-500 ease-in-out cursor-pointer"
                 width={3000} // Set a fixed width for the image (optional)

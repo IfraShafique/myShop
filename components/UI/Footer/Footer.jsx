@@ -1,6 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF } from "@fortawesome/free-solid-svg-icons";
-import Image from "next/image";
+import React from "react";
 
 export default function Footer() {
     const initialVaues = [
@@ -15,38 +13,33 @@ export default function Footer() {
         <div className='flex max-sm:flex max-sm:flex-col'>
             <div className='sm:w-[70%]   sm:text-xl text-xs'>
                 <ul className='flex'> 
-                    <li className='mb-12 border-l-4 border-pink-800 px-2 cursor-pointer '>About Us</li>
-                    <li className='mb-12 border-l-4 border-pink-800 px-2 cursor-pointer '>Contact Us</li>
-                    <li className='mb-12 border-l-4 border-pink-800 px-2 cursor-pointer '>Privacy</li>
+                    <li className='mb-12 border-l-4 border-pink-800 px-2 cursor-pointer hover:scale-110 transform transition duration-500 ease-in-out hover:text-pink-800'>About Us</li>
+                    <li className='mb-12 border-l-4 border-pink-800 px-2 hover:scale-110 transform transition duration-500 ease-in-out cursor-pointer hover:text-pink-800'>Contact Us</li>
+                    <li className='mb-12 border-l-4 border-pink-800 px-2 hover:scale-110 transform transition duration-500 ease-in-out cursor-pointer hover:text-pink-800'>Privacy</li>
                 </ul>
             </div>
 
             <div className=' sm:text-xl text-xs font-bold max-sm:w-[60%]'>
                 <p>Be With Us</p>
-                <div className='flex'>
-                    <ul className='flex'>
-                       
-                            {initialVaues.map((value, index) => (
-                                <li className='py-2'>
-                                    <a href={value.href} target="_blank">
-                                    <Image
-                                    src={value.src}
-                                    alt={value.alt}
-                                    className="max-sm:w-[50%] rounded-full sm:mr-4"
-                                    width={50}
-                                    height={50}
-                                />
-                                    </a>
-                                </li>
-                            ))}
-                    
-                    </ul>
+                <div className='flex mt-4'>
+                <div className="flex sm:space-x-9 space-x-3">
+            <a href="https://www.facebook.com/"  target="_blank" className="text-white hover:scale-110 transform transition duration-500 ease-in-out hover:text-pink-800 cursor-pointer  ">
+                <i className="fab fa-facebook sm:text-4xl text-2xl "></i>
+            </a>
+            <a href="https://www.linkedin.com/"  target="_blank" className="text-white hover:scale-110 transform transition duration-500 ease-in-out hover:text-pink-800 cursor-pointer">
+                <i className="fab fa-linkedin sm:text-4xl text-2xl"></i>
+            </a>
+            <a href="https://www.twitter.com/" target="_blank" className="text-white hover:scale-110 transform transition duration-500 ease-in-out hover:text-pink-800 cursor-pointer">
+                <i className="fab fa-twitter sm:text-4xl text-2xl"></i>
+            </a>
+        </div>
+                   
                 </div>
             </div>
         </div>
 
     </div>
-        <div className="mt-10 max-sm:text-xs text-center bg-pink-800 w-[100%] text-white py-1">
+        <div className="mt-10 max-sm:text-xs text-center bg-black w-[100%] text-white sm:py-4 py-1">
             &copy; 2024. All Rights Reserved
         </div>
         </>

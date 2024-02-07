@@ -21,9 +21,9 @@ export default function Carousel() {
     }, [currentSlide]); // Re-run effect when currentSlide changes
 
     return (
-        <div id="default-carousel" className="relative w-[90%]  mx-auto sm:mt-24 mt-12" data-carousel="slide">
+        <div id="default-carousel" className="relative sm:w-[90%] w-[98%]  mx-auto sm:mt-24 mt-12" data-carousel="slide">
             {/* Carousel wrapper */}
-            <div className="relative h-[80vh] overflow-hidden">
+            <div className="relative sm:h-[80vh] h-[60vh] overflow-hidden">
                 {/* Display only the current slide */}
                 {[...Array(totalSlides)].map((_, index) => (
                     <div
